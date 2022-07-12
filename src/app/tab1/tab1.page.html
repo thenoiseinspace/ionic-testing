@@ -18,14 +18,14 @@
   </ion-avatar> -->
 
   <app-explore-container name="Tab 1 page testing"></app-explore-container>
-
+<!-- 
   <ion-card color="light">
-    <div class="img-wrapper">
+    <div (onclick)="test()" class="img-wrapper">
       <img src="https://cdn-icons.flaticon.com/png/512/4140/premium/4140047.png?token=exp=1657569365~hmac=818808903ab9046ac78596e9b7f6c899" />
-      <ion-button color="light">
+      <!- - <ion-button color="light">
         <ion-icon slot="icon-only" name="camera-outline" color="medium">
         </ion-icon>
-      </ion-button>
+      </ion-button> - ->
     </div>
     <ion-card-content class="ion-text-center">
       <h2>FirstName LastName</h2>
@@ -37,8 +37,11 @@
         </div>
       </ion-text>
     </ion-card-content>
-  </ion-card>
-
+  </ion-card> -->
+  
+  <div *ngFor = "let anyName of testArray; index as i;" >
+    <p>Adding text here</p>
+  </div>
   
 
 </ion-content>
