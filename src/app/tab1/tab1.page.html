@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Tab 1 what does this do?
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,36 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title size="large">Profile</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <!-- <ion-avatar>
+    <img src="https://cdn-icons.flaticon.com/png/512/4140/premium/4140047.png?token=exp=1657569365~hmac=818808903ab9046ac78596e9b7f6c899">
+  </ion-avatar> -->
+
+  <app-explore-container name="Tab 1 page testing"></app-explore-container>
+
+  <ion-card color="light">
+    <div class="img-wrapper">
+      <img src="https://cdn-icons.flaticon.com/png/512/4140/premium/4140047.png?token=exp=1657569365~hmac=818808903ab9046ac78596e9b7f6c899" />
+      <ion-button color="light">
+        <ion-icon slot="icon-only" name="camera-outline" color="medium">
+        </ion-icon>
+      </ion-button>
+    </div>
+    <ion-card-content class="ion-text-center">
+      <h2>FirstName LastName</h2>
+      <ion-text color="medium">
+        <div style="display: flex;" class="ion-justify-content-center">
+          <ion-icon name="location-outline" color="medium">
+          </ion-icon>
+          <p>New York, NY</p>
+        </div>
+      </ion-text>
+    </ion-card-content>
+  </ion-card>
+
+  
+
 </ion-content>
