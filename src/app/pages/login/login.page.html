@@ -8,7 +8,11 @@
   <div class="flex-center">
     <ion-card>
       <ion-card-header>
+        <ion-row>
+          <ion-col>
         <ion-card-title color="success">Please log in</ion-card-title>
+         </ion-col>
+      </ion-row>
       </ion-card-header>
     
       <ion-card-content>
@@ -20,9 +24,17 @@
           <ion-label position="floating">Password</ion-label>
           <ion-input type="password"></ion-input>
         </ion-item>
-        <ion-button color="dark" fill="clear" size="full">Forgot email/password?</ion-button>
-        <ion-button color="success" size="full">Login</ion-button>
-        <ion-button color="success" size="full">Register</ion-button>
+          <ion-button color="dark" fill="clear" size="full">Forgot email/password?</ion-button>
+          <ion-row>
+            <ion-col>
+          <ion-button class="buttonType"  color="success" size="large" expand="block">Login</ion-button>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+        <ion-button class="buttonType"  color="success" size="large" expand="block">Register</ion-button>
+        </ion-col>
+      </ion-row>
       </ion-card-content>
     </ion-card>
   </div>

@@ -74,6 +74,23 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  ///Sarah changes////
+  /** button colors **/
+  --ion-color-test: white; 
+  --ion-color-test-rgb: white; 
+  --ion-color-test-contrast: black;
+  --ion-color-test-contrast-rgb: white;
+  --ion-color-test-shade: white;
+  --ion-color-test-tint: white;
+}
+.ion-color-test{
+  --ion-color-base: var(--ion-color-test); 
+  --ion-color-base-rgb: var(--ion-color-test-rgb);
+  --ion-color-contrast: var(--ion-color-test-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-test-contrast-rgb);
+  --ion-color-shade: var(--ion-color-test-shade);
+  --ion-color-tint: var(--ion-color-test-tint);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -252,7 +269,7 @@ ion-card {
   overflow: visible; 
   margin: 16px 35 24px;
   position: relative;
-  padding-top: 60px;
+  // padding-top: 60px;
 
   .img-wrapper {
     position: relative;
