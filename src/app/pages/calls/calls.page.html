@@ -8,7 +8,8 @@
 </ion-header>
 
 <ion-content>
-  <ion-card>
+  <app-pickup-card></app-pickup-card>
+  <!-- <ion-card>
     <ion-card-header>
       <ion-card-subtitle>Last pickup call</ion-card-subtitle>
     </ion-card-header>
@@ -27,11 +28,11 @@
         </ion-label>
       </ion-item>
     </ion-card-content>
-    </ion-card>
+    </ion-card> -->
 
     <ion-card>
       <ion-card-header>
-        <ion-card-subtitle>Last pickup call</ion-card-subtitle>
+        <ion-card-subtitle *ngIf="hello === true">Last pickup call</ion-card-subtitle>
       </ion-card-header>
       <ion-card-content>
         <ion-item lines="none">
@@ -50,6 +51,9 @@
       </ion-card-content>
     </ion-card>
     <ion-card>
+      <!-- <app-pickup-call-card>
+
+      </app-pickup-call-card> -->
       <ion-card-header>
         <ion-card-subtitle>Last pickup call</ion-card-subtitle>
       </ion-card-header>

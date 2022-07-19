@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CallsPage implements OnInit {
 
+  hello = true;
+
   constructor() { }
 
   ngOnInit() {
